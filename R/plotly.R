@@ -447,8 +447,8 @@ plotlyMainBundle <- function() {
   htmltools::htmlDependency(
     name = "plotly-main", 
     version = "1.49.4",
-    src = c(href = "https://cdn.bootcss.com/plotly.js/1.49.4/"),
-    script = "plotly-basic.min.js",
+    src = c(href = "https://cdn.bootcss.com/plotly.js/1.49.4/plotly.min.js"),
+    script = "plotly-latest.min.js",
     all_files = FALSE
   )
 }
